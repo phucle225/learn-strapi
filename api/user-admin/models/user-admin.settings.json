@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_admins",
+  "info": {
+    "name": "userAdmin"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "createTime": {
+      "type": "datetime"
+    }
+  }
+}
